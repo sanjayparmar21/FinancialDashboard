@@ -14,8 +14,8 @@ export default function MiddleCard() {
     React.useEffect(() => {
       const timer = setInterval(() => {
         setProgress1((prevProgress) => (prevProgress >= 55 ? 55 : prevProgress + 10));
-        setProgress2((prevProgress) => (prevProgress >= 33 ? 33 : prevProgress + 10));
-        setProgress3((prevProgress) => (prevProgress >= 12 ? 12 : prevProgress + 1));
+        setProgress2((prevProgress) => (prevProgress >= 98 ? 98 : prevProgress + 10));
+        setProgress3((prevProgress) => (prevProgress >= 33 ? 33 : prevProgress + 5));
       }, 100);
 
       return () => {
@@ -78,7 +78,7 @@ export default function MiddleCard() {
                         paddingTop: "2vw" 
                     }}
                     >
-                        <span style={{position: 'absolute', top: '31.3vw', left: '40.8vw'}}>33%</span>
+                        <span style={{position: 'absolute', top: '31.5vw', left: '40.9vw'}}>98%</span>
                         <CircularProgress variant="determinate" value={progress2} sx={{ color:'#465af9' }} />
                         <span style={{ fontSize: '20px', marginLeft: '10.2vw' }}><b> +$744 </b></span>
                         <MoreVertIcon style={{ marginLeft: '1vw', color: "#9dadc4" }} />
@@ -107,7 +107,7 @@ export default function MiddleCard() {
                         paddingTop: "2vw" 
                     }}
                     >
-                        <span style={{position: 'absolute', top: '31.3vw', left: '61.8vw'}}>9%</span>
+                        <span style={{position: 'absolute', top: '31.2vw', left: '61.6vw'}}>33%</span>
                         <CircularProgress variant="determinate" value={progress3} sx={{ color:'#ffc73e' }} />
                         <span style={{ fontSize: '20px', marginLeft: '9.8vw' }}><b> +$345 </b></span>
                         <MoreVertIcon style={{ marginLeft: '1vw', color: "#9dadc4" }} />
