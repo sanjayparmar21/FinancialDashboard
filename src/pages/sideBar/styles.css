@@ -1,0 +1,28 @@
+.pro-sidebar-layout {
+    background-color: #fbfbfb;
+}
+.pro-icon {
+    color: #9cabc3;
+    background-color: #fbfbfb;
+}
+.pro-inner-item {
+    color: #9cabc3;
+    background-color: #fbfbfb;
+}
+.pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item > .popper-inner {
+    background-color: #fbfbfb;
+}
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #fbfbfb;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-icon-wrapper .pro-icon :hover {
+    color: #4146c0;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+    color: #4146c0;
+    font-weight: bold;
+}
+.popper-inner :hover {
+    color: #4146c0;
+}
