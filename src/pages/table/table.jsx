@@ -60,7 +60,7 @@ export default function Table() {
   return (
     <Box padding={'1vw'}>
       <Box>
-        <Box sx={{ paddingY: "1vw", fontSize: "1.2vw"}}>
+        <Box sx={{ paddingY: "1vw", fontSize: "1.2vw", color: "#ffffff" }}>
           Recent Subscription
           <span style={{ marginLeft: "2vw", color: "#9dadc4", fontSize: "0.9vw" }} >
             This week
@@ -88,7 +88,8 @@ export default function Table() {
             style={{
               display: 'flex',
               alignItems: 'center',
-              flexWrap: 'wrap', 
+              flexWrap: 'wrap',
+              color: '#9dadc4'
             }}
           > 
             <Avatar
@@ -113,7 +114,8 @@ export default function Table() {
             style={{
               display: 'flex',
               alignItems: 'center',
-              flexWrap: 'wrap', 
+              flexWrap: 'wrap',
+              color: '#9dadc4' 
             }}
           > 
             <Avatar
@@ -139,6 +141,7 @@ export default function Table() {
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap', 
+              color: '#9dadc4'
             }}
           > 
             <Avatar
@@ -164,6 +167,7 @@ export default function Table() {
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap', 
+              color: '#9dadc4'
             }}
           > 
             <Avatar

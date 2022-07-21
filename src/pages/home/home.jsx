@@ -9,15 +9,17 @@ import SideBar from '../sideBar/sideBar';
 
 export default function Home() {
   return (
-    <Grid container spacing={2} sx={{ backgroundColor: "#fdfefe" }}>
+    <Grid container spacing={2} sx={{ backgroundColor: "#332846" }}>
       {/* sidebar start */}
-      <Grid item xs={2}>
+      {/* <Grid item xs={2} > */}
+      <Grid item xs={2} style={{ background: "linear-gradient(#332846, #635380)" }} >
           <SideBar />
       </Grid>
       {/* sidebar end */}
 
       {/* left side box start */}
-      <Grid item container xs={8} sx={{ backgroundColor: "#f9fafb" }}>
+      {/* <Grid item container xs={8} sx={{ backgroundColor: "#332846" }}> */}
+      <Grid item container xs={8} style={{ background: "linear-gradient(#332846, #635380)" }} >
         {/* top most card start */}
         {/* left component */}
         <Grid container item xs={6} sx={{ padding: '2vw'}}>

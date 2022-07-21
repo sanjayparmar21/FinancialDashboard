@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import React from 'react';
 import {
   LineChart,
@@ -49,7 +49,7 @@ const data = [
     return (
     <>
         <Grid container item xs={12} sx={{ padding: '1vw' }}>
-        <Typography variant='h6'>Billing</Typography>
+        <Box sx={{ color: "#3c2b50", fontSize: "1.2vw" }}>Billing</Box>
         <ResponsiveContainer width="95%" height={350}>
         <LineChart
             data={data}
@@ -59,7 +59,7 @@ const data = [
                 left: 0,
                 bottom: 0
             }}
-            style={{ backgroundColor: "#ffffff" }}
+            style={{ backgroundColor: "#c190c0" }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="dataKeyX" />
@@ -69,10 +69,10 @@ const data = [
           <Line
             type="monotone"
             dataKey="totalCredit"
-            stroke="#8e59f2"
+            stroke="#3c2b50"
             activeDot={{ r: 8 }}
           />
-          <Line type="monotone" dataKey="totalDebt" stroke="#9aaac2" />
+          <Line type="monotone" dataKey="totalDebt" stroke="#725d8b" />
         </LineChart>
         </ResponsiveContainer>
         </Grid>
