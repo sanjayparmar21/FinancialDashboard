@@ -49,7 +49,7 @@ const data = [
     return (
     <>
         <Grid container item xs={12} sx={{ padding: '1vw' }}>
-        <Box sx={{ color: "#3c2b50", fontSize: "1.2vw" }}>Billing</Box>
+        <Box sx={{ color: "#ffffff", fontSize: "1.2vw" }}>Billing</Box>
         <ResponsiveContainer width="95%" height={350}>
         <LineChart
             data={data}
@@ -59,7 +59,7 @@ const data = [
                 left: 0,
                 bottom: 0
             }}
-            style={{ backgroundColor: "#c190c0" }}
+            style={{ backgroundColor: "#212a35" }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="dataKeyX" />
@@ -69,10 +69,10 @@ const data = [
           <Line
             type="monotone"
             dataKey="totalCredit"
-            stroke="#3c2b50"
+            stroke="#42caff"
             activeDot={{ r: 8 }}
           />
-          <Line type="monotone" dataKey="totalDebt" stroke="#725d8b" />
+          <Line type="monotone" dataKey="totalDebt" stroke="#ffffff" />
         </LineChart>
         </ResponsiveContainer>
         </Grid>

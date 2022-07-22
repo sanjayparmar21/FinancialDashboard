@@ -1,29 +1,28 @@
 .pro-sidebar-layout {
-    background-color: #3c2b50;
-    /* background-color: linear-gradient(#332846, #635380); */
+    background-color: #212a35;
 }
 .pro-icon {
-    color: #c190c0;
-    background-color: #3c2b50;
+    color: #ffffff;
+    background-color: #212a35;
 }
 .pro-inner-item {
-    color: #c190c0;
-    background-color: #3c2b50;
+    color: #ffffff;
+    background-color: #212a35;
 }
 .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item > .popper-inner {
-    background-color: #c190c0;
+    background-color: #ffffff;
 }
 .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
-    background-color: #3c2b50;
+    background-color: #212a35;
 }
 
 .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-icon-wrapper .pro-icon :hover {
-    color: #dfe1e3;
+    color: #42caff;
 }
 .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
-    color: #dfe1e3;
+    color: #42caff;
     font-weight: bold;
 }
 .popper-inner :hover {
-    color: #dfe1e3;
+    color: #42caff;
 }

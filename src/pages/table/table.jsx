@@ -62,14 +62,14 @@ export default function Table() {
       <Box>
         <Box sx={{ paddingY: "1vw", fontSize: "1.2vw", color: "#ffffff" }}>
           Recent Subscription
-          <span style={{ marginLeft: "2vw", color: "#9dadc4", fontSize: "0.9vw" }} >
+          <span style={{ marginLeft: "2vw", color: "#ffffff", fontSize: "0.9vw" }} >
             This week
             <KeyboardArrowDownIcon />
           </span>
         </Box>
       </Box>
       <table>
-        <thead style={{ color: "#9dadc4" }}>
+        <thead style={{ color: "#ffffff" }}>
           <tr>
             <th style={{ paddingRight: '2vw' }}>Name</th>
             <th style={{ paddingRight: '15vw'}}></th>
@@ -79,27 +79,27 @@ export default function Table() {
             <th style={{ paddingRight: '6vw' }}>Status</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ color: "#ffffff" }}>
         <tr>
           <td>
-            <Checkbox />
+            <Checkbox style={{ color: "#ffffff" }} />
           </td>
           <td 
             style={{
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap',
-              color: '#9dadc4'
             }}
           > 
             <Avatar
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpjQiynN6jkDXSLTK3LKlSZZIw8H6mPc2ECu7oKLran7jU4L3qrd-kD95zNUTwjx1fpo&usqp=CAU"
               alt="image"
+              style={{ marginRight: "1vw"}}
             />
               Play Station
           </td>
-          <td style={{ color: "#9dadc4" }}>$243</td>
-          <td style={{ color: "#9dadc4" }}>New York</td>
+          <td>$243</td>
+          <td>New York</td>
           <td>
             <Avatar
               src="https://qph.fs.quoracdn.net/main-qimg-c7a526dfad7e78f9062521efd0a3ea70-c"
@@ -109,23 +109,23 @@ export default function Table() {
           <td><IOSSwitch sx={{ m: 1 }} defaultChecked /></td>
         </tr>
         <tr>
-          <td><Checkbox /></td>
+          <td><Checkbox style={{ color: "#ffffff" }} /></td>
           <td 
             style={{
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap',
-              color: '#9dadc4' 
             }}
           > 
             <Avatar
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzwFAdHT5O90YRjXSKfC6Chk06xY2FZQuA8wcVpoOtl4Yhd4_oS2mEB5U6pAGJMZWlJA&usqp=CAU"
               alt="image"
+              style={{ marginRight: "1vw"}}
             />
             Apple Music
           </td>
-          <td style={{ color: "#9dadc4" }}>$80</td>
-          <td style={{ color: "#9dadc4" }}>Huston</td>
+          <td>$80</td>
+          <td>Huston</td>
           <td>
             <Avatar
               src="https://i0.wp.com/evanstonroundtable.com/wp-content/uploads/2022/05/Lushina-scaled-e1652827479814.jpg?fit=1200%2C900&ssl=1"
@@ -135,23 +135,23 @@ export default function Table() {
           <td><IOSSwitch sx={{ m: 1 }} /></td>
         </tr>
         <tr>
-          <td><Checkbox defaultChecked /></td>
+          <td><Checkbox defaultChecked style={{ color: "#ffffff" }} /></td>
           <td 
             style={{
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap', 
-              color: '#9dadc4'
             }}
           > 
             <Avatar
               src="https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj"
               alt="image"
+              style={{ marginRight: "1vw"}}
             />
             Youtube
           </td>
-          <td style={{ color: "#9dadc4" }}>$243</td>
-          <td style={{ color: "#9dadc4" }}>New York</td>
+          <td>$243</td>
+          <td>New York</td>
           <td>
             <Avatar
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlgVUiuTQbmj_jO_W1nmX8bzbXS2DDxMStn8FdSPyK7SSAKVnHXZjTx9764JdwzGSWd84&usqp=CAU"
@@ -161,23 +161,23 @@ export default function Table() {
           <td><IOSSwitch sx={{ m: 1 }} defaultChecked /></td>
         </tr>
         <tr>
-          <td><Checkbox /></td>
+          <td><Checkbox style={{ color: "#ffffff" }} /></td>
           <td 
             style={{
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap', 
-              color: '#9dadc4'
             }}
           > 
             <Avatar
               src="https://image.similarpng.com/very-thumbnail/2020/05/Popular-social-media-Behance-logo-transparent-PNG.png"
               alt="image"
+              style={{ marginRight: "1vw"}}
             />
             Behance
           </td>
-          <td style={{ color: "#9dadc4" }}>$153</td>
-          <td style={{ color: "#9dadc4" }}>Dallas</td>
+          <td>$153</td>
+          <td>Dallas</td>
           <td>
             <Avatar
               src="https://imageio.forbes.com/specials-images/imageserve/61688aa1d4a8658c3f4d8640/Antonio-Juliano/0x0.jpg?format=jpg&width=960"

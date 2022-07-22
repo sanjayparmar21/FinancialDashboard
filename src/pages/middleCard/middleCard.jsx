@@ -26,20 +26,20 @@ export default function MiddleCard() {
     return (
         <>
             {/* middle card start */}
-            <Grid item container xs={12} sx={{ padding: '2vw' }}> {/* background color not given/}*
+            <Grid item container xs={12} sx={{ padding: '2vw' }}>
                 {/* card one start */}
-                <Grid item xs={3.9} sx={{ backgroundColor: "#c190c0", color: "#3c2b50", padding: '0.8vw', marginRight: '1vw' }}>
-                    <Box sx={{ color: "#352745", fontSize: "1vw" }}>
+                <Grid item xs={3.9} sx={{ backgroundColor: "#212a35", color: "#ffffff", padding: '0.8vw', marginRight: '1vw' }} >
+                    <Box sx={{ color: "#ffffff", fontSize: "1vw" }}>
                         Debt
                         <span style={{ marginLeft: '10vw' }}>
                             This week
                             <KeyboardArrowDownIcon />
                         </span>
                     </Box>
-                    <Box sx={{ color: "#decffd", fontSize: "1vw" }}>
+                    <Box sx={{ color: "#42caff", fontSize: "1vw" }}>
                         Credit Inc.
-                        <span style={{ marginLeft: '7.5vw', color: "#decffd" }}>-2.3%</span>
-                        <ArrowDownwardIcon sx={{ color: "#decffd", marginLeft: '0.5vw' }} />
+                        <span style={{ marginLeft: '7.5vw', color: "#42caff" }}>-2.3%</span>
+                        <ArrowDownwardIcon sx={{ color: "#42caff", marginLeft: '0.5vw' }} />
                     </Box>
                     <Grid item xs={12} 
                     style={{
@@ -57,18 +57,18 @@ export default function MiddleCard() {
                 </Grid>
                 {/* card one end */}
                 {/* card two start */}
-                <Grid item xs={3.85} sx={{ backgroundColor: "#c190c0", color: "#3c2b50", padding: '1vw', marginRight: '1vw' }}>
-                    <Box sx={{ color: "#352745", fontSize: "1vw" }}>
+                <Grid item xs={3.85} sx={{ backgroundColor: "#212a35", color: "#ffffff", padding: '1vw', marginRight: '1vw' }} >
+                    <Box sx={{ color: "#ffffff", fontSize: "1vw" }}>
                         Debt
                         <span style={{ marginLeft: '10vw' }}>
                             Today
                             <KeyboardArrowDownIcon />
                         </span>
                     </Box>
-                    <Box sx={{ color: "#decffd", fontSize: "1vw" }}>
+                    <Box sx={{ color: "#42caff", fontSize: "1vw" }}>
                         Sushi Bar
-                        <span style={{ marginLeft: '8vw', color: "#decffd" }}>-1.3%</span>
-                        <ArrowDownwardIcon sx={{ color: "#decffd", marginLeft: '0.5vw' }} />
+                        <span style={{ marginLeft: '8vw', color: "#42caff" }}>-1.3%</span>
+                        <ArrowDownwardIcon sx={{ color: "#42caff", marginLeft: '0.5vw' }} />
                     </Box>
                     <Grid item xs={12} 
                     style={{
@@ -86,18 +86,18 @@ export default function MiddleCard() {
                 </Grid>
                 {/* card two end */}
                 {/* card three start */}
-                <Grid item xs={3.85} sx={{ backgroundColor: "#c190c0", color: "#3c2b50", padding: '0.8vw' }}>
-                    <Box sx={{ color: "#352745", fontSize: "1vw" }}>
+                <Grid item xs={3.85} sx={{ backgroundColor: "#212a35", color: "#ffffff", padding: '0.8vw' }}>
+                    <Box sx={{ color: "#ffffff", fontSize: "1vw" }}>
                         Debt
                         <span style={{ marginLeft: '9vw' }}>
                             This Month
                             <KeyboardArrowDownIcon />
                         </span>
                     </Box>
-                    <Box sx={{ color: "#decffd", fontSize: "1vw" }}>
+                    <Box sx={{ color: "#42caff", fontSize: "1vw" }}>
                         Apple TV
-                        <span style={{ marginLeft: '7.3vw', color: "#decffd" }}>+1.8%</span>
-                        <ArrowUpwardIcon sx={{ color: "#decffd", marginLeft: '1vw' }} />
+                        <span style={{ marginLeft: '7.3vw', color: "#42caff" }}>+1.8%</span>
+                        <ArrowUpwardIcon sx={{ color: "#42caff", marginLeft: '1vw' }} />
                     </Box>
                     <Grid item xs={12} 
                     style={{
